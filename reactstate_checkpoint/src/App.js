@@ -1,5 +1,7 @@
 import "./App.css";
 import React from "react";
+import {Button} from "react-bootstrap";
+
 
 class App extends React.Component {
   constructor(props) {
@@ -52,7 +54,7 @@ class App extends React.Component {
             </div>
             <div> {this.state.imgSrc}</div>
           </div>
-          <button onClick={this.toggleShow}>Click Again</button>
+          <Button onClick={this.toggleShow}>Click Again</Button>
           <div className="time">
             The Local Time Is {this.state.date.toLocaleTimeString()}.
           </div>
@@ -61,7 +63,7 @@ class App extends React.Component {
     } else {
       return (
         <div>
-          <button onClick={this.toggleShow}>Click Me</button>
+          <Button onClick={this.toggleShow}>Click Me</Button>
           <div className="time">
             The Local Time Is {this.state.date.toLocaleTimeString()}.
           </div>
