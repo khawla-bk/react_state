@@ -11,7 +11,7 @@ class App extends React.Component {
       imgSrc: (
         <img
           style={{ width: "240px", borderRadius: "20px" }}
-          src="photo.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Sherlock_Holmes_Portrait_Paget.jpg"
           alt="Sherlock's photo"
         />
       ),
