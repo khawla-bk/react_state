@@ -52,7 +52,7 @@ class App extends React.Component {
             </div>
             <div> {this.state.imgSrc}</div>
           </div>
-          <button onClick={this.toggleShow}>Change State</button>
+          <button onClick={this.toggleShow}>Click Again</button>
           <div className="time">
             The Local Time Is {this.state.date.toLocaleTimeString()}.
           </div>
